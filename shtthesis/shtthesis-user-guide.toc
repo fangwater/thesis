@@ -1,0 +1,39 @@
+
+\contentsline {chapter}{\numberline {第1章}绪论}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}当代计算视觉算法的应用场景}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}计算机视觉算法工业化部署的特点与挑战}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}计算机视觉算法模型的生产过程}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}计算机视觉算法部署的实现与挑战}{3}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}传统视觉算法}{3}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}推理部分}{4}{subsubsection.1.2.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.3}前，后处理部分}{5}{subsubsection.1.2.2.3}%
+\contentsline {paragraph}{专用硬件支持}{6}{paragraph*.21}%
+\contentsline {paragraph}{计算成本和开发难度}{8}{paragraph*.24}%
+\contentsline {subsection}{\numberline {1.2.3}计算机视觉算法模型的部署外环境}{9}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}计算机算法延迟监测的意义}{11}{section.1.3}%
+\contentsline {section}{\numberline {1.4}现有计算机视觉算法延迟观测的一般方法与不足}{12}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}延迟事件观测}{13}{subsection.1.4.1}%
+\contentsline {paragraph}{基于硬件支持的性能分析(Profiling)工具}{13}{paragraph*.28}%
+\contentsline {paragraph}{基于代码注入的日志记录}{13}{paragraph*.30}%
+\contentsline {subsection}{\numberline {1.4.2}延迟日志记录}{14}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}论文研究内容和创新点}{16}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}论文研究的出发点}{16}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}论文的主要内容}{16}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}论文的创新点}{17}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}论文组织结构}{18}{subsection.1.5.4}%
+\contentsline {chapter}{\numberline {第2章}计算机视觉算法的延迟观测}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}计算机视觉算法的运行时延}{19}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}基于计算图的模块抽象}{19}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}计算机视觉算法的部署延迟测量}{20}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}计算机视觉算法延迟的提取方式}{20}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}计算机视觉算法部署中的延迟元数据}{24}{subsubsection.2.1.2.2}%
+\contentsline {paragraph}{延迟相关元数据}{24}{paragraph*.37}%
+\contentsline {paragraph}{使用元数据拓展观测维度}{24}{paragraph*.38}%
+\contentsline {section}{\numberline {2.2}计算机算法的延迟观测意义}{25}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}计算图调度参考}{25}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}优化参数设置}{28}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}事后追踪参考}{28}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}本章总结}{29}{section.2.3}%
+\contentsline {chapter}{\numberline {第3章}致谢}{31}{chapter.3}%
+\contentsline {chapter}{参考文献}{33}{section*.43}%
+\contentsline {chapter}{\numberline {第4章}作者简历及攻读学位期间发表的学术论文与研究成果}{37}{chapter.4}%
