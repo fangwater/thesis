@@ -1,0 +1,108 @@
+
+\contentsline {chapter}{\numberline {第1章}绪论}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}当代计算视觉算法的应用场景}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}计算机视觉算法工业化部署的特点与挑战}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}计算机视觉算法模型的生产过程}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}计算机视觉算法部署的实现与挑战}{3}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}传统视觉算法}{3}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}推理部分}{4}{subsubsection.1.2.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.3}前，后处理部分}{6}{subsubsection.1.2.2.3}%
+\contentsline {paragraph}{专用硬件支持}{7}{paragraph*.21}%
+\contentsline {paragraph}{计算成本和开发难度}{8}{paragraph*.24}%
+\contentsline {subsection}{\numberline {1.2.3}计算机视觉算法的部署外环境}{9}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}计算机视觉算法延迟观测的重要性}{12}{section.1.3}%
+\contentsline {section}{\numberline {1.4}计算机视觉算法延迟观测的一般方法与不足}{12}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}延迟事件观测}{13}{subsection.1.4.1}%
+\contentsline {paragraph}{基于硬件支持的性能分析(Profiling)工具}{13}{paragraph*.28}%
+\contentsline {paragraph}{基于代码注入的日志记录}{14}{paragraph*.30}%
+\contentsline {subsection}{\numberline {1.4.2}延迟日志记录}{14}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}论文研究内容和创新点}{16}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}论文研究的出发点}{16}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}论文的主要内容}{17}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}论文的创新点}{17}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}论文组织结构}{18}{subsection.1.5.4}%
+\contentsline {chapter}{\numberline {第2章}计算机视觉算法的延迟观测}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}计算机视觉算法的运行时延}{19}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}基于计算图的模块抽象}{19}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}计算机视觉算法的部署延迟测量}{20}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}计算机视觉算法延迟的提取方式}{20}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}计算机视觉算法部署中的延迟元数据}{24}{subsubsection.2.1.2.2}%
+\contentsline {paragraph}{延迟相关元数据}{24}{paragraph*.37}%
+\contentsline {paragraph}{使用元数据拓展观测维度}{24}{paragraph*.38}%
+\contentsline {section}{\numberline {2.2}计算机视觉算法的延迟观测意义}{25}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}计算图调度参考}{25}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}优化参数设置}{27}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}事后追踪参考}{28}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}本章总结}{28}{section.2.3}%
+\contentsline {chapter}{\numberline {第3章}轻量级视觉算法部署延迟观测系统实现}{30}{chapter.3}%
+\contentsline {section}{\numberline {3.1}延迟观测事件构造}{30}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}动态追踪技术概述}{30}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}基于阶段的延迟选择功能实现}{32}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}延迟观测事件的信息获取}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}基于元数据的观测维度拓展}{37}{section.3.3}%
+\contentsline {section}{\numberline {3.4}延迟观测信息的日志生成}{39}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}延迟观测信息的用户态提交}{39}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}针对延迟信息特点的二进制格式生成}{40}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}延迟日志信息写入}{42}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}基于IO-URING的异步写入}{42}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}延迟日志的前置过滤}{44}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}延迟前置过滤的判定方法}{45}{subsubsection.3.5.2.1}%
+\contentsline {paragraph}{灵活性}{46}{paragraph*.50}%
+\contentsline {paragraph}{自适应}{46}{paragraph*.51}%
+\contentsline {paragraph}{低性能开销}{46}{paragraph*.52}%
+\contentsline {paragraph}{可解释性更强}{47}{paragraph*.53}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}基于T-digest的延迟过滤}{47}{subsubsection.3.5.2.2}%
+\contentsline {section}{\numberline {3.6}本章小结}{49}{section.3.6}%
+\contentsline {chapter}{\numberline {第4章}边缘计算场景下的延迟观测实践}{51}{chapter.4}%
+\contentsline {section}{\numberline {4.1}交通任务下的边缘计算场景}{51}{section.4.1}%
+\contentsline {section}{\numberline {4.2}实验软硬件}{52}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}信号来源}{52}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}部署开发板参数}{53}{subsection.4.2.2}%
+\contentsline {paragraph}{CPU}{53}{paragraph*.59}%
+\contentsline {paragraph}{内存(RAM)}{53}{paragraph*.60}%
+\contentsline {paragraph}{NPU}{53}{paragraph*.61}%
+\contentsline {paragraph}{存储}{53}{paragraph*.62}%
+\contentsline {paragraph}{操作系统}{53}{paragraph*.63}%
+\contentsline {paragraph}{编译器和语言}{53}{paragraph*.64}%
+\contentsline {section}{\numberline {4.3}实验计算图表达}{53}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Taskflow}{53}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}简单的模块封装}{54}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}IO模块}{54}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}前处理模块}{54}{subsubsection.4.3.2.2}%
+\contentsline {paragraph}{解码(Decode)和ffmpeg}{54}{paragraph*.66}%
+\contentsline {paragraph}{去噪(Denoise)和白平衡(White balance)}{55}{paragraph*.67}%
+\contentsline {paragraph}{切割(Crop)}{55}{paragraph*.68}%
+\contentsline {paragraph}{仿射变换(Affine-Transform)}{55}{paragraph*.69}%
+\contentsline {paragraph}{字符分割(Char Split)}{55}{paragraph*.70}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}后处理模块}{56}{subsubsection.4.3.2.3}%
+\contentsline {paragraph}{非极大值抑制(Non-maximum suppression)}{56}{paragraph*.72}%
+\contentsline {paragraph}{字符聚合(Char Aggregate)}{56}{paragraph*.73}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}推理模块}{56}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}其他模块}{57}{subsubsection.4.3.2.5}%
+\contentsline {paragraph}{序列化(Serialization)}{57}{paragraph*.75}%
+\contentsline {paragraph}{数据库事物提交(Database IO)}{57}{paragraph*.76}%
+\contentsline {section}{\numberline {4.4}延迟观测的具体方式}{57}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}延迟阶段划分}{57}{subsection.4.4.1}%
+\contentsline {paragraph}{传输阶段}{58}{figure.caption.78}%
+\contentsline {paragraph}{目标检测前处理}{58}{figure.caption.80}%
+\contentsline {paragraph}{目标检测}{58}{figure.caption.82}%
+\contentsline {paragraph}{目标检测后处理}{59}{figure.caption.84}%
+\contentsline {paragraph}{车牌识别前处理}{59}{figure.caption.86}%
+\contentsline {paragraph}{字符识别}{60}{figure.caption.88}%
+\contentsline {paragraph}{车牌识别后处理}{60}{figure.caption.90}%
+\contentsline {paragraph}{信息提交}{60}{figure.caption.92}%
+\contentsline {subsection}{\numberline {4.4.2}观测结果选择}{60}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}利用观测结果指导优化}{61}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}观测设备的硬件负载}{61}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}内存使用率}{61}{subsubsection.4.5.1.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}NPU负载}{61}{subsubsection.4.5.1.2}%
+\contentsline {subsection}{\numberline {4.5.2}查找性能瓶颈}{62}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}快速对比量化模型替换后延迟}{64}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}使用前置过滤评估延迟的稳定性}{65}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}本章小结}{67}{section.4.6}%
+\contentsline {chapter}{\numberline {第5章}总结与展望}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}本文总结}{69}{section.5.1}%
+\contentsline {section}{\numberline {5.2}下一步的工作展望}{69}{section.5.2}%
+\contentsline {chapter}{\numberline {第6章}致谢}{71}{chapter.6}%
+\contentsline {chapter}{参考文献}{73}{section*.103}%
+\contentsline {chapter}{\numberline {第7章}作者简历及攻读学位期间发表的学术论文与研究成果}{79}{chapter.7}%

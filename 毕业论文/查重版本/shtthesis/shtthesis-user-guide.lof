@@ -1,0 +1,56 @@
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 2022年中国算力发展状况\blx@tocontentsinit {0}\citep {china2022}\relax }}{1}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 计算机视觉算法模型的生产过程\relax }}{2}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces TVM架构图 \blx@tocontentsinit {0}\cite {DBLP:journals/corr/abs-1802-04799}\relax }}{3}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces 基于传统视觉算法的计算流程\relax }}{4}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces 视觉算法模型的兼容性和性能权衡\relax }}{8}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces RK芯片集成处理(目前暂无)\blx@tocontentsinit {0}\cite {rknnprocess}\relax }}{8}{figure.caption.23}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces 计算机视觉算法部署框架\relax }}{9}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces 有线直连的超清摄像头(拍摄于实习公司)\relax }}{10}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces 交通场景的边缘计算部署\relax }}{11}{figure.caption.27}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Nsight Compute的观测原理\relax }}{13}{figure.caption.29}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces 基于发布订阅的边缘计算日志系统\blx@tocontentsinit {0}\cite {george2021mez}\relax }}{15}{figure.caption.31}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 基于模块构造工作流\relax }}{19}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 模块的基本结构\relax }}{20}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Nsight Compute的观测结果:颗粒度依赖于函数符号\relax }}{21}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 论文观测机制示意图图例\relax }}{22}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 论文观测机制示意图\relax }}{23}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces ARM A76的大小核架构\blx@tocontentsinit {0}\cite {arm76}\relax }}{26}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 线程池的工作过程\relax }}{27}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces 一种日志事件跟踪的设计方法\blx@tocontentsinit {0}\cite {geppert1997logging}\relax }}{28}{figure.caption.41}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces eBPF概览\blx@tocontentsinit {0}\cite {whatisbpf}\relax }}{31}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces USDT构造视觉算法运行时采样点\relax }}{33}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 使用BPF-map实现采样点选择\relax }}{33}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 读取上述硬件信息需要的内核IO\relax }}{36}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 红蓝不同路径在计算图中通过相同的模块\relax }}{37}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 延迟日志向用户态提交的实现\relax }}{40}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 延迟异步IO写入方式\relax }}{43}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 延迟日志写入优化\relax }}{44}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 延迟前置过滤\relax }}{48}{figure.caption.54}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 简化的车牌识别流程\relax }}{51}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 实验仿真的传输场景\relax }}{52}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 前处理模块汇总\relax }}{54}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 后处理模块汇总\relax }}{56}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 推理模块汇总\relax }}{56}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 传输阶段\relax }}{57}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 目标检测前处理阶段\relax }}{58}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 目标检测阶段\relax }}{58}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 目标检测后处理阶段阶段\relax }}{59}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces 车牌识别前处理阶段\relax }}{59}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces 字符识别阶段\relax }}{59}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces 车牌识别后处理阶段\relax }}{60}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces 信息提交阶段\relax }}{60}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces 延迟阶段选择结果可视化\relax }}{62}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 内存/NPU使用率\relax }}{63}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces USB无线网卡接入和网线接入\relax }}{63}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces 优化后延迟阶段选择结果可视化\relax }}{64}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces 对比模型推理延迟\relax }}{65}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces 网卡限速后延迟变化\relax }}{66}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces 单位时间内延迟的记录次数\relax }}{66}{figure.caption.101}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces 不同分位数的过滤阈值\relax }}{67}{figure.caption.102}%
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}

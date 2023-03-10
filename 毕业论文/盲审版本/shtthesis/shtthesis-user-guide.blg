@@ -1,0 +1,14 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'shtthesis-user-guide.blg'
+[40] biber:340> INFO - === 五 3月 10, 2023, 18:08:57
+[49] Biber.pm:418> INFO - Reading 'shtthesis-user-guide.bcf'
+[103] Biber.pm:978> INFO - Found 64 citekeys in bib section 0
+[123] Biber.pm:4401> INFO - Processing section 0
+[129] Biber.pm:4592> INFO - Looking for bibtex file 'myref.bib' for section 0
+[130] bibtex.pm:1713> INFO - LaTeX decoding ...
+[161] bibtex.pm:1518> INFO - Found BibTeX data source 'myref.bib'
+[746] UCollate.pm:68> INFO - Overriding locale 'zh__pinyin' defaults 'variable = shifted' with 'variable = non-ignorable'
+[746] UCollate.pm:68> INFO - Overriding locale 'zh__pinyin' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[746] Biber.pm:4221> INFO - Sorting list 'gb7714-2015/global//global/global' of type 'entry' with template 'gb7714-2015' and locale 'zh__pinyin'
+[788] bbl.pm:654> INFO - Writing 'shtthesis-user-guide.bbl' with encoding 'UTF-8'
+[862] bbl.pm:757> INFO - Output to shtthesis-user-guide.bbl
