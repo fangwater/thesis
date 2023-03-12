@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.4)  10 MAR 2023 18:09
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.4)  10 MAR 2023 20:02
  restricted system commands enabled.
 **shtthesis-user-guide.tex
 (./shtthesis-user-guide.tex
@@ -2774,9 +2774,8 @@ Package luatex.def Info: img/dp.png  used on input line 1213.
 
 ] [72] [73] [74] [75] [76
 
-]
-第6章
 
+] 
 AED: lastpage setting LastPage
 [77
 
@@ -2785,16 +2784,16 @@ AED: lastpage setting LastPage
 
 ] (./shtthesis-user-guide.aux)
 Package rerunfilecheck Info: File `shtthesis-user-guide.out' has not changed.
-(rerunfilecheck)             Checksum: 3E971A0DC4EB0EAC413AAF5291CEE885;10025.
+(rerunfilecheck)             Checksum: B57FD23FAF78A1600D336F820AA6ABFB;9999.
 Package logreq Info: Writing requests to 'shtthesis-user-guide.run.xml'.
 
 \openout1 = shtthesis-user-guide.run.xml
 )
-(\end occurred when \iftrue on line 1267 was incomplete)
-(\end occurred when \if on line 1261 was incomplete)
-(\end occurred when \if on line 1246 was incomplete)
-(\end occurred when \if on line 1245 was incomplete)
-(\end occurred when \if on line 1241 was incomplete)
+(\end occurred when \iftrue on line 1270 was incomplete)
+(\end occurred when \if on line 1264 was incomplete)
+(\end occurred when \if on line 1249 was incomplete)
+(\end occurred when \if on line 1248 was incomplete)
+(\end occurred when \if on line 1244 was incomplete)
 
 Here is how much of LuaTeX's memory you used:
  43199 strings out of 478290
@@ -2805,7 +2804,7 @@ c, 36 attribute_list, 1 write, 10 user_defined, 7 pdf_action nodes
    avail lists: 1:8,2:53787,3:1034,4:5178,5:1724,6:144,7:6310,8:103,9:6092,10:25
 ,11:513
  61462 multiletter control sequences out of 65536+600000
- 185 fonts using 560586403 bytes
+ 185 fonts using 560587059 bytes
  102i,12n,128p,1322b,3073s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/xits/XITSMath-Regular.
 otf></home/fanghz/.local/share/fonts/FZFangSong-Z02 Regular.ttf></usr/local/texl
@@ -2819,7 +2818,7 @@ toSerifCJK-Regular.ttc></usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc>
 -bold.otf></usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc></usr/share/font
 s/opentype/noto/NotoSerifCJK-Bold.ttc></usr/share/fonts/opentype/noto/NotoSansCJ
 K-Medium.ttc></usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc>
-Output written on shtthesis-user-guide.pdf (94 pages, 4423330 bytes).
+Output written on shtthesis-user-guide.pdf (94 pages, 4423242 bytes).
 
 PDF statistics: 1846 PDF objects out of 2073 (max. 8388607)
  1495 compressed objects within 15 object streams
